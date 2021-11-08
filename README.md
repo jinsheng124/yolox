@@ -35,4 +35,5 @@
 	|-yolox
 		|- darknet.py cspdarknet网络
 		|- yolox.py yolox模型
+实际检测效果图：
 ![image](./dataset/val/result.jpg)
