@@ -6,7 +6,7 @@
 	|-test.py 计算mAP值
 	|-detect.py 预测单张图片
 
-	|----utils
+	|-utils
 		|-- clip.py 数据预处理
 		|--dataset.py 生成dataset
 		|--region_loss.py yolox损失（含角度损失）
