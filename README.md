@@ -35,3 +35,4 @@
 	|-yolox
 		|- darknet.py cspdarknet网络
 		|- yolox.py yolox模型
+![image](./dataset/val/result.jpg)
