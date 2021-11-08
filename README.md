@@ -37,4 +37,4 @@
 		|- yolox.py yolox模型
 实际检测效果图：
 
-![result](https://github.com/jinsheng124/yolox/blob/main/dataset/val/result.jpg)
+![Image text](https://github.com/jinsheng124/yolox/blob/main/dataset/val/result.jpg)
