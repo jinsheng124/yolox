@@ -38,16 +38,16 @@
 		|- yolox.py yolox模型
 		
 *2，环境配置"
-		torch>=1.6
-		tqmd=4.55.1
-		cuda>=10.1
-		numpy=1.19.3
-		opencv-python>=3.4.2.16
-		opencv-contrib-python>=3.4.2.16
-		matplotlib
-		json
-		Pillow
-		shapely
+	|torch>=1.6
+	|tqmd=4.55.1
+	|cuda>=10.1
+	|numpy=1.19.3
+	|opencv-python>=3.4.2.16
+	|opencv-contrib-python>=3.4.2.16
+	|matplotlib
+	|json
+	|Pillow
+	|shapely
 	
 *3,实际检测效果图(yolox_s轻量化网络)*
 
