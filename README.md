@@ -17,7 +17,7 @@
 	|-detect.py 预测单张图片，运行detect.py，输入图片路径即可进行预测。
 
 	|-pretrained
-		|-内有yolox_s预训练权重
+		|-内有yolox_s预训练权重,若无权重文件，请注释掉train.py的166-171行，freeze设置为False,不冻结训练。
 	|-model_data
 		|-classes.txt文件，可以自定义类别训练自己的模型
 	|-dataset
