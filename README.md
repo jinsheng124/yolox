@@ -35,6 +35,6 @@
 	|-yolox
 		|- darknet.py cspdarknet网络
 		|- yolox.py yolox模型
-实际检测效果图：
+实际检测效果图(yolox_s轻量化网络)：
 
 ![result](https://github.com/jinsheng124/yolox/blob/main/dataset/val/result.jpg)
