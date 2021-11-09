@@ -1,7 +1,7 @@
 该项目用于旋转目标检测，目标检测框架yolox。
 旋转目标检测相比于目标检测，除了要预测类别，中心坐标x,y,宽高w,h五元组外，还需要预测矩形框的旋转角度a。
 
-*1,项目结构*：
+**1,项目结构**：
 
 	|-train.py 训练
 		|-训练参数
@@ -37,7 +37,7 @@
 		|- darknet.py cspdarknet网络
 		|- yolox.py yolox模型
 		
-*2，环境配置*
+**2，环境配置**
 
 	torch>=1.6
 	tqmd=4.55.1
@@ -50,6 +50,6 @@
 	Pillow
 	shapely
 	
-*3,实际检测效果图(yolox_s轻量化网络)*
+**3,实际检测效果图(yolox_s轻量化网络)**
 
 ![result](https://github.com/jinsheng124/yolox/blob/main/dataset/val/result.jpg)
