@@ -11,7 +11,7 @@
 			|-Train_Next 断点继续训练
 			|-freeze,freeze_epoch 冻结训练参数
 			|-adam 是否使用adam优化器
-			|-patch,是否划分网格训练，预测时就将图片划分为patch*patch网格，分别检测并堆叠结果，适合超大图片
+			|-patch,是否划分网格训练，预测时就将图片划分为patch*patch网格，分别检测并堆叠结果，适合超大图片，正常大小图片请将patch设为1
 			|-lr 学习率，SGD初始学习率默认0.0001
 		|-训练得到的权重和训练结果可视化会保存在创建的logs文件夹中，每次训练都会计算mAP值
 	|-test.py 计算mAP值
@@ -24,7 +24,8 @@
 	|-dataset
 		|-generate.py 根据训练数据生成trainlist.txt,vallist.txt用于训练,可以根据自己数据集结构自己写代码，生成txt的每一行格式为：
 			|-图片路径 类别1,left1,top1,right1,bottom1,angle1 类别2，left2,top2,right2,bottom2,angle2 ...(角度值为弧度，-pi/2~pi/2之间)
-			|-generate.py中的patch参数，用来处理大图片但小bbox情况,会将图片划分为patchxpatch的网格，每一个网格单独看做一张图片，增大bbox面积比，可以有效提升mAP
+			|-generate.py中的patch参数，用来处理大图片但小bbox情况,训练时会将图片划分为patchxpatch的网格，每一个网格单独看做一张图片，增大bbox面积比，可以有效提升mAP
+			|-正常图片patch设为1
 			
 		|-train 存在训练的标注图片和标签（图片和标签除后缀要同名）
 		|-val 存放测试用的图片和标签，标签一般为矩形4角点坐标加类别
