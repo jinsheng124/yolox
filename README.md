@@ -36,7 +36,7 @@
 	|-yolox
 		|- darknet.py cspdarknet网络
 		|- yolox.py yolox模型
-		![论文地址](https://arxiv.org/abs/2107.08430)
+![yolox论文地址](https://arxiv.org/abs/2107.08430)
 		
 **2，环境配置**
 
