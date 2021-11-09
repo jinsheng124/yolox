@@ -37,7 +37,7 @@
 		|- darknet.py cspdarknet网络
 		|- yolox.py yolox模型
 		
-*2，环境配置"
+*2，环境配置*
 
 	torch>=1.6
 	tqmd=4.55.1
