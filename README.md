@@ -35,8 +35,8 @@
 		|-utils 工具包，涵盖解码、非极大抑制、iou,坐标转换等函数
 	|-yolox
 		|- darknet.py cspdarknet网络
-		|- yolox.py yolox模型
-![yolox论文地址](https://arxiv.org/abs/2107.08430)
+		|- yolox.py yolox模型，[yolox论文地址](https://arxiv.org/abs/2107.08430)，主要使用了Focus,simOTA,检测头分支预测，anchor-free
+		
 		
 **2，环境配置**
 
