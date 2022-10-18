@@ -34,6 +34,9 @@ class Detect_YOLOX(object):
         self.sep_batch = sep_batch
         self.is_savefile = is_savefile
     def plot_one_box(self, box, img, color=None, label=None, line_thickness=None):
+        '''
+        画框框
+        '''
         # Plots one bounding box on image img
         tl = line_thickness or round(0.002 * (img.shape[0] + img.shape[1]) / 2) + 1  # line/font thickness
         color = color or [random.randint(0, 255) for _ in range(3)]
