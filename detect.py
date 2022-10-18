@@ -9,6 +9,9 @@ import numpy as np
 import os
 import json
 class Detect_YOLOX(object):
+    '''
+    检测单张图片
+    '''
     def __init__(self,
                  image_size=(640, 640),
                  model_path="logs/best.pt",
